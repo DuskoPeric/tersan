@@ -1668,6 +1668,7 @@ background:white;
 }
 .big-gr{
 padding-bottom: 20px;
+padding-top: 115px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#697990+0,ffffff+100 */
 background: #697990; /* Old browsers */
 background: -moz-linear-gradient(top,  #697990 0%, #ffffff 100%); /* FF3.6-15 */
@@ -1727,7 +1728,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#697990', end
 	background-color: rgba(26, 29, 30, 0.56);
 }
 .pop-up1{
-	margin-top: 98px;
+	margin-top: 212px;
     width: 445px;
     margin-left: 184px;
 }
