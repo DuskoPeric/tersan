@@ -1659,3 +1659,165 @@ background:white;
     	height: 45px !important;
 	}
 }
+/*Recent repair projects*/
+.rrp-bc{
+	margin-top: 0;
+}
+.rrp-bc a{
+	color: #c8cdd4;
+}
+.big-gr{
+padding-bottom: 20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#697990+0,ffffff+100 */
+background: #697990; /* Old browsers */
+background: -moz-linear-gradient(top,  #697990 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #697990 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #697990 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#697990', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.big-gr h1{
+	font-size: 17px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	border-left: 3px solid #2c4580;
+	padding-left: 12px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.pic-top{
+	float: right;
+    background-image: url(images/shade-rec.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -35px;
+    font-size: 12px;
+    width: 77px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 4px;
+    font-weight: 700; 
+}
+.rrp-pic {
+    padding-left: 0;
+    width: 20%;
+}
+.rrp-pic img{
+	width: 100%;
+}
+.pic-bot{
+	position: relative;
+	margin-top: -46px;
+}
+.pic-bot p{
+    margin: 0;
+    color: #acb1bd;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.pic-bot p:first-child{
+	background-color: rgba(45, 62, 101, 0.56);
+}
+.pic-bot p:last-child{
+	background-color: rgba(26, 29, 30, 0.56);
+}
+.pop-up1{
+	margin-top: 98px;
+    width: 445px;
+    margin-left: 184px;
+}
+.modal-backdrop.in{
+	opacity: 0 !important;
+}
+.modal-slider{
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.modal-slider div:first-child a button{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	width: 80px;
+	height: 45px;
+	border: none;
+	font-size: 12px;
+	font-weight: 700;
+}
+.modal-slider div:first-child a:first-child button{
+	background-color: #d7d7d7;
+}
+.modal-slider div:first-child a:nth-child(2) button{
+	background-color: #455a8e;
+	color: white;
+}
+.expand{
+	position: absolute;
+	top: 5%;
+	right: 4%;
+}
+.modal-slider div:first-child{
+	position: absolute;
+    top: 2%;
+    left: 1%;
+}
+.slide-pic{
+	width: 100%;
+}
+.modal-body{
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.modal-body h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	border-left: 3px solid #0096cf;
+	padding-left: 12px;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+.m-left{
+	position: absolute;
+    top: 45%;
+    left: 1%;
+}
+.m-right{
+	position: absolute;
+    top: 45%;
+    right: 1%;
+}
+.modal-p{
+	clear: both;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: table;
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+    width: 100%;
+    padding-left: 15px;
+}
+.modal-p p, .modal-p span{
+	float: left;
+}
+.modal-p p:first-child{
+	width: 180px;
+	font-weight: 700;
+}
+.modal-p span{
+	width: 22px;
+}
+.modal-pp{
+	font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.35);
+    width: 100%;
+    padding-left: 20px;
+}
