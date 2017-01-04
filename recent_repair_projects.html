@@ -20,6 +20,8 @@
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
   <script>
+  var brojslika=$(".slide-pic").length
+  alert(brojslika)
           </script>
   </head>
   <body>
@@ -311,7 +313,9 @@
           <a href="#"><img class="expand" src="images/expand.png"></a>
           <a href="#"><img class="m-left" src="images/modal-left.png"></a>
           <a href="#"><img class="m-right" src="images/modal-right.png"></a>
-          <img class="slide-pic" src="images/rrc-bc.jpg">
+          <img class="slide-pic pic-active" src="images/rrc-bc.jpg" data-rn="1">
+          <img class="slide-pic" src="images/boat1.jpg" data-rn="2">
+          <img class="slide-pic" src="images/pic11.jpg" data-rn="3">
         </div>
         <h2>NB1067 - Freezer Trawler / Fishing Vessels</h2>
         <div class="modal-p">
