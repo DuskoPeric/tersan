@@ -1771,6 +1771,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#697990', end
 .slide-pic{
 	width: 100%;
 	display: none;
+	height: 340px;
 }
 .pic-active{
 	display: block;

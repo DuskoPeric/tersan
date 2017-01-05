@@ -20,8 +20,34 @@
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
   <script>
-  var brojslika=$(".slide-pic").length
-  alert(brojslika)
+  $(document).ready(function(){
+    var brojslika=$(".slide-pic").length;
+    
+    $(".m-right").click(function(){
+    var rb=$(".slide-pic.pic-active").attr("data-rn");
+      if(rb<brojslika){
+        rb++;
+      }
+      else{
+        rb=1;
+      }
+      $(".slide-pic").removeClass("pic-active");
+      $(".slide-pic[data-rn='"+rb+"']").addClass("pic-active");
+    })
+    
+    $(".m-left").click(function(){
+    var rb=$(".slide-pic.pic-active").attr("data-rn");
+      if(rb==1){
+        rb=brojslika;
+      }
+      else{
+        rb--;
+      }
+    $(".slide-pic").removeClass("pic-active");
+    $(".slide-pic[data-rn='"+rb+"']").addClass("pic-active");
+    })
+  })
+
           </script>
   </head>
   <body>
