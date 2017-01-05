@@ -20,8 +20,43 @@
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
   <script>
-  var brojslika=$(".slide-pic").length
-  alert(brojslika)
+  //problem ti je bio u document ready
+  $(document).ready(function(){
+	  var brojslika=$(".slide-pic").length;
+	  
+	  //event na click desne
+	  $(".m-right").click(function(){
+	  //nadjes redni broj aktivne slike
+		var rb=$(".slide-pic.pic-active").attr("data-rn");
+		//testiras da li je poslednja 
+			if(rb<brojslika){
+			//ako nije dodas plus jedan
+				rb++;
+			}
+			else{
+				//ako jeste setujes da je prva
+				rb=1;
+			}
+			//uklonis svima aktivnu klasu
+			$(".slide-pic").removeClass("pic-active");
+			//das aktivnu klasu onoj sa rednim brojem rb
+			$(".slide-pic[data-rn='"+rb+"']").addClass("pic-active");
+	  })
+	  
+	  //za lijevu sama skontaj
+	  $(".m-left").click(function(){
+		var rb=$(".slide-pic.pic-active").attr("data-rn");
+			if(rb==1){
+				rb=brojslika;
+			}
+			else{
+				rb--;
+			}
+		$(".slide-pic").removeClass("pic-active");
+		$(".slide-pic[data-rn='"+rb+"']").addClass("pic-active");
+	  })
+  })
+
           </script>
   </head>
   <body>
