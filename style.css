@@ -4,7 +4,7 @@ body{
 header{
 	margin-top:20px;
 	position:absolute;
-	background:#2c4580;
+	background: #124b7f;
 	height:70px;
 	width:100%;
 	z-index:2;
@@ -29,11 +29,15 @@ header{
 	font-weight:bold;
 	text-transform:uppercase;
 }
-.nav-holder ul li a{
-	color:white;
+.nav-holder ul li a {
+    font-weight: 600;
+    color: white;
+    padding-bottom: 6px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 .nav-holder ul li a:hover{
-	border-bottom:solid;
+	border-bottom:solid 2px;
 	text-decoration:none;
 }
 .nav-holder nav{
@@ -350,6 +354,11 @@ header{
 .carousel{
 	overflow: hidden;
 }
+.scr-hold{
+    position: relative;
+    z-index: 2;
+    margin-top: -157px;
+}
 .rect{
 	background-image: url(images/rectangle.png);
     background-repeat: no-repeat;
@@ -360,7 +369,7 @@ header{
     left: 100%;
     background-size: cover;
     margin-left: -425px;
-    bottom: 100%;
+    top: -500px;
     margin-bottom: 200px;
     text-align: left;
     padding-left: 40px;
@@ -370,26 +379,31 @@ header{
 }
 .rect h2{
 	margin-top: 0;
+	text-shadow: none;
 }
 .rect h3{
 	margin-bottom: 0;
+	text-shadow: none;
 }
 .rect p{
 	width: 90%;
+	text-shadow: none;
 }
 .scroll{
-	display:table;
+	margin: auto;
+	width: 1000px;
+    height: 139px;
+    /* display: table; */
+    overflow: hidden;
 	text-align: left;
 	background-image: url(images/scroll.png);
 	background-size:100%;
 	background-repeat: no-repeat;
-	padding-top: 35px;
-    padding-bottom: 17px;
+	padding-top: 30px;
+    margin-bottom: 17px;
 }
 .scroll img{
-    margin-top: 2px;
 	float: left;
-	width: 30%;
 	margin-right: 4%;
 }
 .scroll h5{
@@ -486,20 +500,33 @@ header{
 	cursor:pointer;
 	float: right;
 }
-.scroll-right{
+.scroll-left {
+
     display: block;
-    height: 58px;
+    height: 53px;
     padding-top: 12px;
-    width: 58px !important;
-    padding-left: 20px;
+    width: 53px !important;
+    padding-left: 15px;
     background-color: #d4d4d4;
     font-size: 26px;
-    margin-bottom: 5px;
     color: white !important;
 }
+.scroll-right {
+
+    display: block;
+    height: 53px;
+    padding-top: 11px;
+    width: 53px !important;
+    padding-left: 15px;
+    background-color: #d4d4d4;
+    font-size: 26px;
+    margin-bottom: -36px;
+    margin-bottom: 1px;
+}
+
 .scroll-right img, .scroll-left img{
-	margin-top: 5px;
-	margin-left: 5px;
+    margin-top: 9px;
+    margin-left: 8px;
 }
 .holder-arrow{
     margin-right: 1px;
@@ -513,16 +540,7 @@ header{
 	float:left;
 	width:56%;
 }
-.scroll-left{
-	display:block;
-    height: 58px;
-    padding-top: 12px;
-    width: 58px !important;
-    padding-left: 20px;
-    background-color: #d4d4d4;
-    font-size: 26px;
-    color: white !important;
-}
+
 .sliders p{
 	width: 80%;
 }
@@ -1070,14 +1088,12 @@ display:table;
 }
 @media screen and (max-width: 1680px){
 	.scroll>div{
-background:white;		
+	
 	}
 	.scroll h5 {
 		margin-top: 15px;
 	}
-	.scroll {
-		padding-top: 48px;
-	}
+
 .scroll p {
     max-height: 40px;
 	overflow:hidden;
@@ -1085,9 +1101,9 @@ background:white;
 .scroll-left {
 
     display: block;
-    height: 50px;
+    height: 53px;
     padding-top: 12px;
-    width: 50px !important;
+    width: 53px !important;
     padding-left: 15px;
     background-color: #d4d4d4;
     font-size: 26px;
@@ -1096,14 +1112,14 @@ background:white;
 .scroll-right {
 
     display: block;
-    height: 50px;
-    padding-top: 12px;
-    width: 50px !important;
+    height: 53px;
+    padding-top: 11px;
+    width: 53px !important;
     padding-left: 15px;
     background-color: #d4d4d4;
     font-size: 26px;
-    margin-bottom: 5px;
-    color: white !important;
+    margin-bottom: -36px;
+    margin-bottom: 1px;
 }
 }
 @media screen and (max-width: 1440px){
@@ -1193,6 +1209,9 @@ background:white;
 @media screen and (max-width: 992px){
 	.scroll{
 		display:none
+	}
+	.scr-hold {
+		display:none;
 	}
 }
 @media screen and (max-width: 800px){

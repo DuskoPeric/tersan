@@ -24,6 +24,7 @@ $(document).ready(function(){
 		  dots: false,
 		  centerMode: true,
 		  focusOnSelect: true,
+		  centerPadding: '60px',
 		responsive: [
 			{
 			  breakpoint: 1024,
