@@ -1830,6 +1830,257 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#697990', end
     padding-left: 20px;
 }
 
+@media screen and (max-width: 1024px){
+	.pop-up1{
+		width: 362px;
+		margin-left: 205px;
+	}
+	.slide-pic{
+		height: 272px;
+	}
+	.modal-body{
+		padding-bottom: 0;
+	}
+	.modal-p p:first-child{
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.slide-pic{
+		height: 274px;
+	}
+	.pop-up1{
+		width: 365px;
+		margin-left: 205px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.slide-pic{
+		height: 200px;
+	}
+	.pop-up1{
+		width: 275px;
+		margin-left: 227px;
+	}
+	.modal-body{
+		padding-bottom: 15px;
+	}
+	.modal-p{
+		font-size: 12px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+	}
+	.modal-p p:first-child{
+		width: 120px;
+	}
+	.modal-p span{
+		width: 10px;
+	}
+	.modal-pp{
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.rrp-pic{
+		float: left;
+	}
+	.pic-top{
+		margin-top: 20px;
+		margin-bottom: -25px;
+		font-size: 10px;
+	}
+	.pic-bot{
+		margin-top: -38px;
+	}
+	.pic-bot p{
+		font-size: 10px;
+	}
+	.pop-up1{
+		width: 220px;
+		margin-left: 230px;
+	}
+	.modal-slider div:first-child a button{
+		width: 60px;
+		height: 34px;
+	}
+	.expand{
+		width: 15px;
+	}
+	.m-left, .m-right{
+		width: 35px;
+	}
+	.slide-pic {
+    	height: 155px;
+	}
+	.modal-body h2{
+		font-size: 13px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 5px;
+	}
+	.modal-p{
+		font-size: 11px;
+		padding-left: 3px;
+	}
+	.modal-p p{
+		margin-bottom: 4px;
+	}
+	.modal-p p:first-child {
+    	width: 108px;
+	}
+	.modal-p span{
+		width: 7px;
+	}
+	.modal-last{
+		width: 100px;
+	}
+	.modal-pp{
+		padding-left: 5px;
+		font-size: 13px;
+	}
+	.modal-body{
+		padding-bottom: 0;
+	}
+	.big-gr h1{
+		margin-bottom: 0;
+	}
+	.big-gr{
+		padding-top: 145px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.rrp-pic{
+		padding-right: 5px;
+		width: 25%;
+	}
+	.pic-top{
+		font-size: 10px;
+		width: 65px;
+		height: 20px;
+		padding-left: 25px;
+	}
+	.pop-up1 {
+    	width: 222px;
+    	margin-left: 117px;
+    	margin-top: 208px;
+	}
+}
+
+@media screen and (max-width: 414px){
+	.pop-up1{
+		width: 190px;
+		margin-left: 100px;
+	}
+	.slide-pic{
+		height: 130px;
+	}
+	.modal-slider{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.modal-body{
+		padding-top: 10px;
+	}
+	.modal-slider div:first-child a button {
+    	width: 50px;
+    	height: 28px;
+    	font-size: 10px;
+	}
+	.m-left, .m-right {
+    	width: 30px;
+	}
+	.pic-top{
+		margin-bottom: -20px;
+	}
+	.pic-bot{
+		margin-top: -31px;
+	}
+	.pic-bot p{
+		font-size: 9px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+	.modal-body h2{
+		font-size: 11px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.modal-p p:first-child {
+    	width: 100px;
+	}
+	.modal-p{
+		font-size: 10px;
+	}
+	.modal-last {
+    	width: 73px;
+	}
+	.modal-pp{
+		font-size: 11px;
+		padding-top: 10px;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.pop-up1 {
+    	width: 168px;
+    	margin-left: 91px;
+    	margin-top: 199px;
+	}
+	.modal-body{
+		padding-top: 5px;
+	}
+	.modal-slider{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.modal-slider div:first-child a button {
+    	width: 40px;
+    	height: 22px;
+    	font-size: 9px;
+	}
+	.slide-pic{
+		height: 128px;
+	}
+	.modal-body h2{
+		font-size: 10px;
+	}
+	.modal-p{
+		font-size: 9px;
+	}
+	.modal-p p:first-child {
+    	width: 90px;
+	}
+	.modal-last{
+		width: 59px;
+	}
+	.modal-pp{
+		font-size: 10px;
+	}
+	.m-left, .m-right {
+    	width: 25px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.rrp-pic{
+		width: 33.33%;
+	}
+	.pop-up1 {
+    	width: 190px;
+    	margin-left: 101px;
+    	margin-top: 212px;
+	}
+	.slide-pic{
+		height: 147px;
+	}
+}
+
 /*Projects*/
 .modal-p a p{
 	text-decoration: underline;
