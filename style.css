@@ -103,11 +103,11 @@ header{
 	display:none;
 	cursor:default;
 	position:relative;
-    width: 200px;
-    height: 250px;
-	background:white;
-	margin-top:-10px;
-	margin-left:-230px;
+    width: 333px;
+    height: 370px;
+    background: white;
+    margin-top: -10px;
+    margin-left: -363px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -128,7 +128,7 @@ header{
     left: 98%;
 }
 .point div h4 {
-    padding-left: 10px;
+    padding-left: 17px;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 900;
@@ -137,15 +137,15 @@ header{
 
 .point div p {
     font-size: 11px;
-    padding: 0px 10px;
-    line-height: 14px;
+	padding: 0px 17px;
+    line-height: 20px;
     text-align: justify;
 }
 .point div img{
     width: 90%;
     margin: auto;
     display: block;
-    padding-top: 8px;
+    padding-top: 19px;
 }
 #bay{
 	position:relative;
@@ -353,6 +353,7 @@ header{
 }
 .carousel{
 	overflow: hidden;
+	height: 100vh;
 }
 .scr-hold{
     position: relative;
@@ -1085,6 +1086,22 @@ display:table;
 }
 .img-bot{
 	margin-top: 9px;
+}
+.ln-sh div:first-child a:last-child {
+    position: absolute;
+    /* left: 44%; */
+    background: #20376e;
+    width: 110px;
+    margin-top: 24px;
+    margin-left: -4px;
+    text-align: center;
+    /* background: red; */
+    height: 54px;
+    padding-top: 16px;
+	display:none;
+}
+.ln-sh div:first-child:hover a:last-child{
+	display:block;
 }
 @media screen and (max-width: 1680px){
 	.scroll>div{
