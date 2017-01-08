@@ -20,6 +20,16 @@
 	<link rel="stylesheet" href="animate.css" />
 		<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".small-img").click(function(){
+        var src=$(this).find("img").attr("src");
+        $(".nb-big-img").attr("src", src);
+        var text=$(this).find("p").html();
+        $(".gen-v p").html(text);
+      })
+    })
+  </script>
   </head>
   <body>
  <a class="logo" href="#"><img src="images/logo.png"></a>
@@ -133,80 +143,72 @@
       <div class="right-content col-md-8 col-md-offset-0 col-sm-6 col-sm-offset-2">
         <h2 class="border">TERSAN GENERAL VIEV</h2>
         <p>Tersan Shipyard Inc. is belonging to Tersan group of companies providing services in four maritime sectors, i) new ship building, ii) ship repair, docking & conversion, iii) ship owning & operation and iv) ship agency services.</p>
-        <img src="images/new-big.jpg">
+        <img class="nb-big-img" src="images/new-big.jpg">
         <div class="gen-v">
           <p>Tersan General View</p>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic1.jpg"></a>
+          <a><img src="images/rrc-bc.jpg"></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic2.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Cranes</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic3.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Build</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic4.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Management</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic5.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Repair</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic6.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Cranes</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic7.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Build</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic8.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Floating Dock</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic9.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Repair</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic10.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Cranes</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic11.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Build</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic12.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Management</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic13.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Repair</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic14.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Cranes</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic15.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Build</p></a>
         </div>
         <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic16.jpg">
+          <a><img src="images/rrc-bc.jpg">
           <p>Floating Docks</p></a>
-        </div>
-        <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic2.jpg">
-          <p>Cranes</p></a>
-        </div>
-        <div class="col-sm-2 col-xs-4 small-img">
-          <a href="#"><img src="images/pic2.jpg">
-          <p>Cranes</p></a>
         </div>
       </div>
     </div>
