@@ -1006,7 +1006,7 @@ display:table;
 	margin-bottom: 25px;
 	margin-left: 12px;
 }
-.con-bot-right img{
+.con-bot-right .map2{
 	width: 100%;
     margin-top: 30px;
 }
@@ -1088,6 +1088,10 @@ display:table;
 .ref-first{
 	padding-left: 0;
 	padding-right: 0;
+	display: none;
+}
+.ref-first.active{
+	display: block;
 }
 .img-bot{
 	margin-top: 9px;

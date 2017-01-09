@@ -19,6 +19,15 @@
 	<link rel="stylesheet" href="animate.css" />
 		<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".ref-side-nav ul li").click(function(){
+        var tab=$(this).attr("data-tab");
+        $(".ref-first").removeClass("active");
+        $("."+tab).addClass("active");
+      })
+    })
+  </script>
   </head>
   <body>
  <a class="logo" href="#"><img src="images/logo.png"></a>
@@ -56,14 +65,46 @@
       <div class="ref-side-nav col-md-3">
         <img src="images/andenesfisk.png">
         <ul>
-          <li class="rsn-active"><a href="#">NB009 Tankers</a></li>
-          <li><a href="#">NB009 Tankers</a></li>
-          <li><a href="#">NB009 Tankers</a></li>
-          <li><a href="#">NB009 Tankers</a></li>
-          <li><a href="#">NB009 Tankers</a></li>
+          <li class="rsn-active" data-tab="first"><a>NB009 Tankers</a></li>
+          <li data-tab="second"><a>NB009 Tankers</a></li>
+          <li data-tab="third"><a>NB009 Tankers</a></li>
+          <li data-tab="fourth"><a>NB009 Tankers</a></li>
+          <li data-tab="fifth"><a>NB009 Tankers</a></li>
         </ul>
       </div>
-      <div class="ref-first col-md-9">
+      <div class="active first ref-first col-md-9">
+        <img src="images/ervik.png">
+        <img src="images/nsk.png">
+        <img src="images/kiyi.png">
+        <img class="img-bot" src="images/palmali.png"> 
+        <img class="img-bot" src="images/atlantic.png">
+        <img class="img-bot" src="images/azer.png">
+      </div>
+      <div class="second ref-first col-md-9">
+        <img src="images/ervik.png">
+        <img src="images/nsk.png">
+        <img src="images/kiyi.png">
+        <img class="img-bot" src="images/palmali.png"> 
+        <img class="img-bot" src="images/atlantic.png">
+        <img class="img-bot" src="images/azer.png">
+      </div>
+      <div class="third ref-first col-md-9">
+        <img src="images/ervik.png">
+        <img src="images/nsk.png">
+        <img src="images/kiyi.png">
+        <img class="img-bot" src="images/palmali.png"> 
+        <img class="img-bot" src="images/atlantic.png">
+        <img class="img-bot" src="images/azer.png">
+      </div>
+      <div class="fourth ref-first col-md-9">
+        <img src="images/ervik.png">
+        <img src="images/nsk.png">
+        <img src="images/kiyi.png">
+        <img class="img-bot" src="images/palmali.png"> 
+        <img class="img-bot" src="images/atlantic.png">
+        <img class="img-bot" src="images/azer.png">
+      </div>
+      <div class="fifth ref-first col-md-9">
         <img src="images/ervik.png">
         <img src="images/nsk.png">
         <img src="images/kiyi.png">
