@@ -1008,7 +1008,12 @@ display:table;
 }
 .con-bot-right .map2{
 	width: 100%;
+	height:420px;
     margin-top: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:solid 5px white;
 }
 .ref-top{
 	height: 600px;
@@ -1054,6 +1059,7 @@ display:table;
 	margin-top: 43px;
 }
 .ref-side-nav ul li{
+	cursor: pointer;
 	text-align: center;
 	width: 207px;
 	padding-top: 8px;
